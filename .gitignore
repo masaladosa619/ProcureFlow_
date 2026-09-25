@@ -31,13 +31,16 @@ ENV/
 .env
 .env.*
 !.env.example
+!.env.production.example
 *.env
 web/.env
 web/.env.*
 !web/.env.example
+!web/.env.production.example
 api/.env
 api/.env.*
 !api/.env.example
+!api/.env.production.example
 
 # Local PostgreSQL cluster & logs
 pgdata/
